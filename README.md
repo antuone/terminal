@@ -1,4 +1,4 @@
-# ~
+# Разное
 sudo apt update
 sudo apt upgrade
 # установить видео драйвер 
