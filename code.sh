@@ -48,3 +48,14 @@ export JAVA_HOME
 
 # перед установкой android studio на ubuntu 16.04 x64
 sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1
+
+# Посмотреть uuid дисков
+ls -l /dev/disk/by-uuid
+# Посмотреть с какими параметрами смонтированы диски
+cat /etc/mtab
+# добавить строчку для автомонтирования
+sudo gedit /etc/fstab
+UUID=7A1E576C68E6FECF /media/antuone/Data fuseblk rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0
+#
+#
+#
