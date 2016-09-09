@@ -1,3 +1,5 @@
+# Лечит - Uncaught Error: Call to undefined function imagecreatefromjpeg()
+sudo apt install php7.0-gd
 #удаляет пакеты установленные раннее с уже удаленной программой. и по сему более не используемые.
 sudo apt-get autoremove
 #удаляет ранее скачанные старые и неиспользуемые архивы из каталогов /var/cache/apt/archives/ and /var/cache/apt/archives/partial/ 
