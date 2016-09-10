@@ -1,3 +1,5 @@
+#В Windows запустите командную строку от имени администратора и наберите: (The NTFS partition is in an unsafe state. Please resume and shutdown Windows fully)
+powercfg -h off
 # Лечит - Uncaught Error: Call to undefined function imagecreatefromjpeg()
 sudo apt install php7.0-gd
 #удаляет пакеты установленные раннее с уже удаленной программой. и по сему более не используемые.
