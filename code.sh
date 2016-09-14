@@ -36,24 +36,6 @@ sudo apt list --upgradable
 # установка gparted
 sudo apt install gparted
 
-# конфигурирование java (тут не все хорошо, нужно разобратся)
-sudo apt autoremove
-sudo apt remove openjdk-*
-sudo mkdir -p /usr/local/java
-sudo cp -r * /usr/local/java
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/bin/java" 1
-sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/bin/javaws" 1
-sudo update-alternatives --set java /usr/local/java/bin/java
-sudo update-alternatives --set javac /usr/local/java/bin/javac
-sudo update-alternatives --set javaws /usr/local/java/bin/javaws
-
-gedit /etc/profile
-JAVA_HOME=/usr/local/java
-PATH=$PATH:$JAVA_HOME/bin
-export JAVA_HOME
-
-
 # перед установкой android studio на ubuntu 16.04 x64
 sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1
 
