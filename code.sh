@@ -54,8 +54,8 @@ sudo apt install gperf m4
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt update
 sudo apt install openjdk-7
-sudo add-apt-repository --remove ppa:openjdk/ppa
-
+sudo add-apt-repository --remove ppa:openjdk-r/ppa
+sudo apt update
 #
 #
 #
