@@ -62,9 +62,13 @@ sudo apt update
 sudo apt install repo 
 # но так версия должна быть свежее
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.local/bin/repo
+chmod a+x ~/.local/bin/repo
 
-#
-#
+# программа показывающая информацию о домене
+sudo apt install whois
+
+# можно скачать файл
+wget http://qweqwe.qwe/qweqwe.zip
 #
 #
 #
