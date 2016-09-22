@@ -46,5 +46,7 @@ sudo apt-get install lib32stdc++6
 
 #Выводит всю информацию о пакете, в том числе и версию.
 aptitude show название_пакета
-#
+
+# Нужны для компиляции андройд
+sudo apt install gperf m4
 #
