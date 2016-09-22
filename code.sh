@@ -38,7 +38,9 @@ sudo apt install gparted
 
 # перед установкой android studio на ubuntu 16.04 x64
 #sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1
-sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+#sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+# For UBUNTU 15.04,15.10,16.04 LTS & Debian 8 Try this command: 
+sudo apt-get install lib32stdc++6
 # В программе Disks можно задать автомонтирование разделов
 #
 #
