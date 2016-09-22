@@ -41,7 +41,10 @@ sudo apt install gparted
 #sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
 # For UBUNTU 15.04,15.10,16.04 LTS & Debian 8 Try this command: 
 sudo apt-get install lib32stdc++6
-# В программе Disks можно задать автомонтирование разделов
-#
+
+## В программе Disks можно задать автомонтирование разделов
+
+#Выводит всю информацию о пакете, в том числе и версию.
+aptitude show название_пакета
 #
 #
