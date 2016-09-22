@@ -49,4 +49,20 @@ aptitude show название_пакета
 
 # Нужны для компиляции андройд
 sudo apt install gperf m4
+
+# установка openjdk7 на ubuntu 16.04.1
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt update
+sudo apt install openjdk-7
+sudo add-apt-repository --remove ppa:openjdk/ppa
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #
