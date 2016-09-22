@@ -56,8 +56,13 @@ sudo apt update
 sudo apt install openjdk-7
 sudo add-apt-repository --remove ppa:openjdk-r/ppa
 sudo apt update
-#
-#
+
+# установка repo,  
+# хотя можно и так
+sudo apt install repo 
+# но так версия должна быть свежее
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.local/bin/repo
+
 #
 #
 #
