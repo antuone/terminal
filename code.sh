@@ -3,9 +3,9 @@ powercfg -h off
 # Лечит - Uncaught Error: Call to undefined function imagecreatefromjpeg()
 sudo apt install php7.0-gd
 #удаляет пакеты установленные раннее с уже удаленной программой. и по сему более не используемые.
-sudo apt-get autoremove
+sudo apt autoremove
 #удаляет ранее скачанные старые и неиспользуемые архивы из каталогов /var/cache/apt/archives/ and /var/cache/apt/archives/partial/ 
-sudo apt-get autoclean
+sudo apt autoclean
 # Разное
 sudo apt update
 sudo apt upgrade
@@ -40,7 +40,7 @@ sudo apt install gparted
 #sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1
 #sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
 # For UBUNTU 15.04,15.10,16.04 LTS & Debian 8 Try this command: 
-sudo apt-get install lib32stdc++6
+sudo apt install lib32stdc++6
 
 ## В программе Disks можно задать автомонтирование разделов
 
