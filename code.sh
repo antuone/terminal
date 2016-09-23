@@ -1,3 +1,5 @@
+# Так можно получить ссылки на файлы сериала
+curl -s 'http://futuron.name/futuron/catalog/data/item/files?id=581081' | jq -r '.data[] | .mp4Url'
 #В Windows запустите командную строку от имени администратора и наберите: (The NTFS partition is in an unsafe state. Please resume and shutdown Windows fully)
 powercfg -h off
 # Лечит - Uncaught Error: Call to undefined function imagecreatefromjpeg()
