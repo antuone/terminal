@@ -71,8 +71,10 @@ sudo apt install whois
 
 # можно скачать файл
 wget http://qweqwe.qwe/qweqwe.zip
-#
-#
+
+# Как смотреть температуру процессора и другие данные с датчиков
+# http://geeksmagazine.org/post/409/kak-proverit-temperaturu-protsessora-v-ubuntu
+
 #
 #
 #
