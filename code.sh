@@ -1,3 +1,5 @@
+# скопировать все MPEG файлы из кэша мозилы
+ls | xargs file | grep 'MPEG ADTS' | cut -d':' -f1 | xargs -n 1 -I % mv % ~/Музыка
 # Так можно получить ссылки на файлы сериала
 curl -s 'http://futuron.name/futuron/catalog/data/item/files?id=581081' | jq -r '.data[] | .mp4Url'
 #В Windows запустите командную строку от имени администратора и наберите: (The NTFS partition is in an unsafe state. Please resume and shutdown Windows fully)
