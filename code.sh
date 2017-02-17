@@ -1,6 +1,9 @@
+
+# узнать вес файла
+du file.txt
 # посмотреть информацию об файле
 file file.txt
-# можно узнать количество символов, а также количество строк слов и байтов в файле
+# можно узнать количество символов в строке, а также количество строк, слов и байтов в файле
 echo "c78298c2f2e5b1ea6065242da4d8056f" | wc
 # вычислить md5
 echo 'qweqwe' | md5sum
@@ -75,7 +78,7 @@ sudo umount /mnt
 sudo apt install virtualbox
 # создать ссылку на папку
 ln -s /media/anton/Data1/Видео ~/Видео
-# скопировать все MPEG файлы из кэша мозилы
+# скопировать все MPEG файлы из кэша мозилы, причем многопоточно
 ls | xargs file | grep 'MPEG ADTS' | cut -d':' -f1 | xargs -n 1 -I % mv % ~/Музыка
 # Так можно получить ссылки на файлы сериала
 curl -s 'http://futuron.name/futuron/catalog/data/item/files?id=581081' | jq -r '.data[] | .mp4Url'
