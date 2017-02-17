@@ -1,3 +1,7 @@
+# выводит все что напишите в красивом ASCII
+sudo apt install toilet
+toilet -F metal texttexttext
+toilet -f mono12 -F metal texttexttext
 # Немногие знают, что man-страницы можно читать и без команды man:
 zcat /usr/share/man/man1/man.1.gz | nroff -man | less
 # нумерует строки
