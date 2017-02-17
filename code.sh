@@ -1,3 +1,5 @@
+# создать папку
+sudo mkdir ~/ftp
 # монтирование и размонтирование дисков
 sudo mount /dev/sda2 /mnt
 sudo umount /mnt
