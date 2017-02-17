@@ -15,7 +15,7 @@ rmdir ~/camera
 mkdir ~/camera
 gphotofs ~/camera
 # удалить все файлы с MTP или PTP устройства
-gphoto2 --delete-all-files --recurse --folder "/store_00010001/DCIM
+gphoto2 --delete-all-files --recurse --folder "/store_00010001/DCIM"
 # скопировать все файлы с MTP или PTP устройства
 gphoto2 --get-all-files --skip-existing --folder "/store_00010001/DCIM"
 #  посмотреть ифнормацию об усб устройстве
