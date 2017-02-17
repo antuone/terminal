@@ -1,3 +1,22 @@
+#
+# размонтирование ptp устройства
+fusermount -u ~/camera
+rmdir ~/camera
+# монтирование ptp устройства
+mkdir ~/camera
+gphotofs ~/camera
+# удалить все файлы с MTP или PTP устройства
+gphoto2 --delete-all-files --recurse --folder "/store_00010001/DCIM
+# скопировать все файлы с MTP или PTP устройства
+gphoto2 --get-all-files --skip-existing --folder "/store_00010001/DCIM"
+#  посмотреть ифнормацию об усб устройстве
+udevadm info -q all -n /dev/bus/usb/001/010
+# монтирование сьемного блочного устройства. http://manpages.ylsoftware.com/ru/pmount.1.html
+pmount
+# переместить все картинки вдругую папку соблюдая иерархию папок
+mv -R /mnt/camera/*.jpg "/home/anton/photo/path/"
+# копировать папку и все содержимое в другую папку
+cp -R ~/folder ~/folder2
 # поиск файлов
 find / -name 'какойто-файл.txt'
 # ?
