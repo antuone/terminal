@@ -1,3 +1,5 @@
+# Красивые движения как в старом (вот уже) добром фильме матрица, все так же красиво и необычно
+sudo apt install cmatrix
 # выводит все что напишите в красивом ASCII
 sudo apt install toilet
 toilet -F metal texttexttext
