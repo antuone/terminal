@@ -1,5 +1,5 @@
-# устанавливает .deb
-debkg
+# одной командой установить сразу несколько пакетов .deb
+sudo dpkg -i /home/user/soft/ntlmaps_*.deb
 # сконфигурировать.deb
 debconf
 # установка .rpm пакетов
