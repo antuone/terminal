@@ -1,3 +1,8 @@
+# монтирование и размонтирование дисков
+sudo mount /dev/sda2 /mnt
+sudo umount /mnt
+# виртуальная машина
+sudo apt install virtualbox
 # создать ссылку на папку
 ln -s /media/anton/Data1/Видео ~/Видео
 # скопировать все MPEG файлы из кэша мозилы
