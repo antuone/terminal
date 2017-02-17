@@ -1,4 +1,13 @@
-#
+# фтп клиент
+filezilla
+# сделать файл исполняемым
+sudo chmod +x test2.sh
+# установка FTP сервера
+sudo apt-get install vsftpd
+# монтирование фтп
+curlftpfs ekb:cb4yb5wf@127.0.0.1/files ~/ftp
+# монтирование MTP устройства
+sudo jmtpfs ~/camera
 # размонтирование ptp устройства
 fusermount -u ~/camera
 rmdir ~/camera
