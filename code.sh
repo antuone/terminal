@@ -1,3 +1,5 @@
+# установка дополнительного модуля mbstring для PHP
+sudo apt install php7.0-mbstring
 # включить модуль в apache2
 sudo a2enmod rewrite
 # узнать из какого репозитория был установлен пакет
