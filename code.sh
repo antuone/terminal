@@ -1,3 +1,7 @@
+# установка phpdoc PHP-7 Syntax support
+wget https://github.com/phpDocumentor/phpDocumentor2/releases/tag/v2.9.0
+sudo mv phpDocumentor.phar /usr/local/bin/phpdoc
+sudo chmod +x /usr/local/bin/phpdoc
 # установка дополнительного модуля mbstring для PHP
 sudo apt install php7.0-mbstring
 # включить модуль в apache2
