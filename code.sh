@@ -1,3 +1,5 @@
+# Скачать видео с ютуба в наилутшем качестве начиная с 7-го номера из списка
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]' --playlist-start 7 "https://www.youtube.com/watch?v=Y7h_S2aekqY&list=PLFwn5mqJn1svNA_fzFqzAAEBH-v_pmfvQ"
 # установка phpdoc PHP-7 Syntax support
 wget https://github.com/phpDocumentor/phpDocumentor2/releases/tag/v2.9.0
 sudo mv phpDocumentor.phar /usr/local/bin/phpdoc
